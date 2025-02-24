@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "pages/**/*.{js,jsx,ts,tsx}",
+        "use": "@vercel/next"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/Tour",
+        "dest": "/pages/Tour"
+      },
+      {
+        "src": "/rent",
+        "dest": "/pages/Rent.js"
+      },
+      {
+        "src": "/Tickets",
+        "dest": "/pages/Tickets.js"
+      },
+      {
+        "src": "/Transfer",
+        "dest": "/pages/Transfer.js"
+      }
+    ]
+  }
+  
