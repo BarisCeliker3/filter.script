@@ -3,6 +3,7 @@ import TourCards from '../pages/TourCards';
 import Popup from '../pages/Popup';
 import Navbar from '../pages/navbar';
 import { useRouter } from "next/router";
+
 // Turların listesi
 const allItems = [
     { id: 1, name: 'Tour 1', category: 'Tours', image: '/img/tayland1.jpg', description: 'A beautiful land tour.', theme: 'Land Tour', activity: 'Swimming', price: 50000, startTime: 10, groupSize: 5 },
