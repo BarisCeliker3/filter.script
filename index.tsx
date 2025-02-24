@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import TourCards from '../pages/TourCards';
-import Popup from '../pages/Popup';
-import Navbar from '../pages/navbar';
+import TourCards from './components/TourCards';
+import Popup from './components/Popup';
+import Navbar from './components/navbar';
 import { useRoutes } from "react-router";
 
 // Turların listesi
