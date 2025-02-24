@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useRoutes } from "react-router";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   
