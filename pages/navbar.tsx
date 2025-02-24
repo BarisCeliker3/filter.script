@@ -6,7 +6,7 @@ const Navbar = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleNavigation = (path) => {
+  const handleNavigation = (path:any) => {
     router.push(path);
     setIsOpen(false); // Menü kapalı hale gelir
   };

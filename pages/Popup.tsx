@@ -1,6 +1,10 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-const Popup = ({ onClose, children }) => {
+interface PopupProps {
+  onClose: () => void;  // onClose fonksiyonunun tipi
+  children: ReactNode;   // children tipi
+}
+const Popup: React.FC<PopupProps> = ({ onClose, children }) => {
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96">
