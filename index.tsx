@@ -2,7 +2,7 @@ import { useState } from 'react';
 import TourCards from './components/TourCards';
 import Popup from './components/Popup';
 import Navbar from './components/navbar';
-import { useRoutes } from "react-router";
+import { useRouter } from "next/router";
 
 // Turların listesi
 const allItems = [
